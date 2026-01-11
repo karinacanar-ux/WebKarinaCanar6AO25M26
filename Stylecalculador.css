@@ -1,0 +1,90 @@
+/*Estilo general de la Calculadora*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content:center;
+    margin-top:5px;
+    background-color:white;
+}
+/* Contenedor general*/
+form{
+    width: 320px;
+    background-color: #f1ebad;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0,2);
+}
+/*Título*/
+.titulo{
+    text-align:center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:black;
+}
+/*Pantalla*/
+input[type="text"] {
+    color: #000000;
+    width: 100%;
+    height: 65px;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #f9a825;
+    background-color: #fffde7;
+    text-align: right;
+    margin-bottom: 15px;
+}
+/*Boton Borrar*/
+button[value="C"] {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: #fbc02d;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+/*Tabla de botones*/
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+/* Botones*/
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color:lightgoldenrodyellow;
+    border: none;
+    border-radius: 12px;
+}
+/*Operadores*/
+    button[value="+"],
+    button[value="-"],
+    button[value="*"],
+    button[value="/"],
+    button[value="="] {
+        background-color: #fbc02d;
+        font-weight: bold;
+    }
+    button:active {
+        transform: scale(0.95);
+        background-color: #f57f17;
+    }
+    .contenedor{
+        position:relative;
+    }
+.btn-volver {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 14px;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+}

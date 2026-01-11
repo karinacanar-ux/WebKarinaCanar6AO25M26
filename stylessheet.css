@@ -1,0 +1,45 @@
+.encabezado {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Tipo de letra*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*Titulos Centrados*/
+    h1, h2, h3 {
+        text-align: center;
+}
+
+/*Párrafos justificados*/    
+p {
+        text-align: justify
+    }
+
+/*Subtitulo*/
+.subtitulo {
+        text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+/*Contenedor centrado horizontal y vertical*/
+.contenedor-principal{
+        flex:1;
+}
+/*Footer*/
+
+.footer{
+    margin-top: auto;
+    padding:2rem 0;
+    border-top:1px solid #ccc;
+    background-color:lightgoldenrodyellow;
+    }
